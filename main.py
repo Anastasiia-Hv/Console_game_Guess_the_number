@@ -28,10 +28,8 @@ def guess_the_number():
         else:
             print(f"Вітаємо! Ви вгадали число {secret_number} за {attempts} спроб!")
             return
-    
-    # Якщо спроби закінчились
+
     print(f"На жаль, ви не вгадали. Загадане число було {secret_number}.")
 
-# Запуск гри
 if __name__ == "__main__":
     guess_the_number()
